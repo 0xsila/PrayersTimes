@@ -1,0 +1,86 @@
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0 ;
+    background:linear-gradient(45deg,#240165,#05001c);
+}
+#container{
+    height: 100vh;
+}
+#city{
+    color:white;
+    font-size: 100px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.prayer{
+    width: 12%;
+    height: 95%;
+    background-color: white;
+    box-shadow: 0px 10px 5px rgb(0 0 0 /30%);
+}
+#prayers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    height: 300px;
+}
+#ChooseCity{
+    
+    color: white;
+    margin-top:80px ;
+    
+
+}
+#select{
+    background: none;
+    background-color:rgb(28, 1, 53) ;
+    width: 225px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    
+
+}
+.name{
+    width: 100%;
+    height: 35px;
+    margin-top: 0;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+.time{
+    font-size: 60px;
+    font-weight: 200;
+    
+}
+#date{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    
+}
+#info{
+    margin-left: 30px;
+}
+hr{
+    margin: 0 25px;
+    border-color:blueviolet;
+}
+.body{
+    height: 80%;
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
